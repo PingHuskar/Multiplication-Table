@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body h1 {
+  margin-top: 5vh;
+}
+
+input {
+  min-width: 80vw;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container table {
+  text-align: center;
+}
+.container table tr th.primeX, .container table tr th.primeY {
+  background: salmon;
+}
+.container table tr td.primeY.primeX {
+  background: black;
+  color: white;
+  font-size: 1.5em;
+}/*# sourceMappingURL=style.css.map */
